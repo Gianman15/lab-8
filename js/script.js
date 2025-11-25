@@ -44,7 +44,7 @@ function loadStations(url) {
       // Add layer control
       const baseMaps = {
         "OpenStreetMap": osm,
-        "Stadia Dark": Stadia_AlidadeSmoothDark
+        "Carto Dark": cartoDark
       };
       const overlayMaps = {
         "Climate Stations": markers
